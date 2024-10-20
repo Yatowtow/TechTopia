@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <title>TechTopia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <a href="#">TechTopia</a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <input type="search" id="search" placeholder="Search...">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="product.html">Products</a></li>
+                <li><a href="shipping.html">Shipping</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="account.html">Account</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+     <br><br><br>
+    <div class="cart-container">
+        <h2 id="shop">Shopping Cart</h2>
+
+        <div class="cart-item">
+            <img src="compCase.png"  height="100px"  alt="Product 1">
+            <div class="item-details">
+                <h3>Product 1</h3>
+                <p>₱6,600</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" name="" id="quantity1" value="1" min="1">
+            </div>
+            <div class="remove-item">
+                <button class="remove-button">Remove</button>
+           </div>
+        </div>
+
+        <div class="cart-item">
+            <img src="gpu1.png"  height="100px"  alt="Product 1">
+            <div class="item-details">
+                <h3>Product 2</h3>
+                <p>₱15,790</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" name="" id="quantity1" value="1" min="1">
+            </div>
+            <div class="remove-item">
+                <button class="remove-button">Remove</button>
+           </div>
+            
+        </div>
+        
+
+        <div class="cart-item">
+            <img src="headset.png" height="100px"  alt="Product 1">
+            <div class="item-details">
+                <h3>Product 3</h3>
+                <p>₱4,000</p>
+                <label for="quantity1">Quantity:</label>
+                <input type="number" name="" id="quantity1" value="1" min="1">
+            </div>
+            <div class="remove-item">
+                <button class="remove-button">Remove</button>
+           </div>
+        </div>
+       
+    
+
+    <div class="cart-total">
+        <h3>Total: ₱26,390 </h3>
+        <button class="checkout-btn">Checkout</button>
+    </div>
+</div>
+</div>
+   
+<script src="func.js"></script>
+
+</body>
+
+</html>
